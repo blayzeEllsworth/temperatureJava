@@ -1,0 +1,10 @@
+public class InvalidTemperatureTypeException extends Exception {
+    
+    public InvalidTemperatureTypeException() {
+        super();
+    }
+    
+    public InvalidTemperatureTypeException(String message){
+        super(message);
+    }
+} 
